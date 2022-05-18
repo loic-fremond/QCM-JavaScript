@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM</title>
+    <link href="./assets/styles.css" rel="stylesheet">
+    <script src="./assets/questionnaire.js" language="JavaScript" type="text/javascript" defer></script>
+</head>
+<body id="qcm_body">
+        <span id="en_tete">
+            <span id="en_tete_score">
+                <h1 id="titre_score">Score :</h1>
+                <p id="score"></p>
+            </span>
+            <span id="en_tete_timer">
+                <p id="titre_timer">Timer</p>
+                <p id="timer"></p>
+            </span>
+        </span>
+        <div id="start_page">
+            <Button id="start">Start</Button>
+        </div>
+        <div id="qcm">
+            <p id="titre_question"></p>
+            <Button id="reponse1"></Button>
+            <Button id="reponse2"></Button>
+            <button id="reponse3"></button>
+            <button id="reponse4"></button>
+            <button id="skip">Skip</button>
+        </div>
+        <div id="score_page">
+            <p id="score_final">Votre score est de : </p>
+            <p id="timer_final">Temps écoulé : </p>
+            <button id="restart">Restart</button>
+        </div>
+</body>
+</html>
